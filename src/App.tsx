@@ -1,16 +1,16 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
+import Header from "./components/Header";
+import About from "./components/About";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Homepage befindet sich im Aufbau.
-        </p>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    return (
+        <div className="App">
+            <Header/>
+            <About/>
+        </div>
+    );
 }
 
 export default App;
