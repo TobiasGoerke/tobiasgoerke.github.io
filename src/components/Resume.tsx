@@ -68,6 +68,27 @@ const skills = [
     }
 ]
 
+// TODO certificates
+// TODO what else?
+
+const certificates = [
+    {
+        "title": "TensorFlow Developer Certificate",
+        "url": "https://www.credential.net/c4a71c18-2f9f-4cec-9199-a77079ec8d0d",
+        "image": "/images/tensorflow_certificate.png",
+    },
+    {
+        "title": "Professional Scrum Master",
+        "url": "https://www.scrum.org/user/471568",
+        "image": "https://cdn.worldvectorlogo.com/logos/scrumorg-1.svg",
+    },
+    {
+        "title": "Beta Gamma Sigma Member",
+        "url": "https://www.betagammasigma.org/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/BGSkey.png"
+    }
+]
+
 const Resume = () => {
 
     return (
