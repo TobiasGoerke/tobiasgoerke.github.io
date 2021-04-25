@@ -1,7 +1,7 @@
 import React from "react";
 import './Portfolio.css';
 
-const portfolio = [
+const portfolio: Array<{ "title": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
         "title": "Krisensentiment - Wie Sie Stimmungen in Sozialen Medien Erkennen",
         "url": "https://blog.viadee.de/sentiment-analyse-yammer",
@@ -42,12 +42,14 @@ const portfolio = [
         "title": "Equipping Titanic with Anchors: Halting Faulty Models ahead of Disaster",
         "url": "https://www.kaggle.com/c/titanic/discussion/83178",
         "image": "https://www.kaggle.com/static/images/site-logo.png",
+        "imgFit": "scale-down",
         "description": ""
     },
     {
         "title": "Hanseatic Governance: Understanding Blockchain as Organizational Technology",
         "url": "https://www.wi.uni-muenster.de/research/publications/154505",
-        "image": "",
+        "image": "https://c5.rgstatic.net/m/419438641133902/images/icons/svgicons/new-index-logo.svg",
+        "imgFit": "scale-down",
         "description": "Blockchain technology provides a distributed ledger and is based on a logic of peer to peer authentication. It gained prominence with the rise of cryptocurrencies but provides a much broader field of possible applications. While it has been originally closely linked to a libertarian agenda rejecting organizations, its developments have illustrated that this ideological framing is being reversed in practice. Based on contrastive empirical cases, the purpose of our paper is to discuss blockchain as an organizational technology. Its peculiar mode of governance, which we name ‘Hanseatic', needs to mediate between the fluidity typical of Free and Open Source Software development and the immutability that use organizations adopt blockchain for."
     },
     {
@@ -67,47 +69,43 @@ const portfolio = [
 const Portfolio = () => {
 
     return (
-        <section id="portfolio">
-            <div className="row">
-                <div className="twelve columns collapsed">
-                    <h1>Projekte und Links</h1>
-                    <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                        {portfolio.map((projects, index) => {
-                            const modalId = "modal-" + index;
-                            return (
-                                <div key={index}>
-                                    <div key={projects.title} className="columns portfolio-item">
-                                        <div className="item-wrap" style={{background: "transparent"}}>
-                                            <a href={"#" + modalId} title={projects.title}>
-                                                <img alt={projects.title} src={projects.image}/>
-                                                <div className="overlay">
-                                                    <div className="portfolio-item-meta">
-                                                        <h5>{projects.title}</h5>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div id={modalId} className="popup-modal slider mfp-hide">
-                                        <div className="media">
-                                            <img src={projects.image} alt=""/>
-                                        </div>
-                                        <div className="description-box">
-                                            <h4>{projects.title}</h4>
-                                            <p>{projects.description}</p>
-                                        </div>
+        <section id="portfolio" className="s-portfolio target-section">
+            <div className="row s-portfolio__header">
+                <a href="#modal-1">
+                <h3>Projekte und Links</h3>
+                </a>
+            </div>
+            <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+                {portfolio.map((projects, index) => {
+                    const modalId = "modal-" + index;
+                    return (
+                        <div key={index}>
+                            <div key={"folio-item-" + index} className="column folio-item">
+                                <a href={"#" + modalId} className="folio-item__thumb">
+                                    <img src={projects.image} alt=""
+                                         style={{objectFit: (projects.imgFit as any || "cover")}}/>
+                                </a>
+                            </div>
+                            <div id={modalId} className="popup-modal slider mfp-hide">
+                                <div className="modal-popup">
+                                    <img src="images/portfolio/gallery/g-droplet.jpg" alt=""/>
 
-                                        <div className="link-box" style={{display: "flex"}}>
-                                            <a href={projects.url}>Details</a>
-                                            <a href="#" className="popup-modal-dismiss">Schließen</a>
-                                        </div>
-
+                                    <div className="modal-popup__desc">
+                                        <h5>Droplet</h5>
+                                        <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel
+                                            voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis
+                                            quae.</p>
+                                        <ul className="modal-popup__cat">
+                                            <li>Branding</li>
+                                            <li>Product Design</li>
+                                        </ul>
                                     </div>
+
+                                    <a href="https://www.behance.net/" className="modal-popup__details">Project link</a>
                                 </div>
-                            )
-                        })}
-                    </div>
-                </div>
+                            </div>
+                        </div>
+                    )})}
             </div>
         </section>
     );
