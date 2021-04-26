@@ -89,7 +89,6 @@ const Portfolio = () => {
                     )
                 })}
 
-
                 {portfolio.map((projects, index) => {
                     return (
                         <div key={"modal-popup-" + index} id={"modal-" + index} className="popup-modal slider mfp-hide">
@@ -102,8 +101,8 @@ const Portfolio = () => {
                                 <p>{projects.description}</p>
                             </div>
                             <div className="link-box">
-                                <a href={projects.url}>Details</a>
-                                <a href="#" className="popup-modal-dismiss">Schließen</a>
+                                <a target="_blank" rel="noreferrer" href={projects.url}>Details</a>
+                                <a href="#"  className="popup-modal-dismiss">Schließen</a>
                             </div>
                         </div>
                     )

@@ -5,7 +5,7 @@ const occupations = [
     "XAI Verfechter", "Entwickler", "Cloud Engineer", "Hobbybrauer"
 ]
 
-const networks: Array<{ name: string, url: string, iconClassName: string }> = [
+export const networks: Array<{ name: string, url: string, iconClassName: string }> = [
     {
         "name": "twitter",
         "url": "https://twitter.com/TobiasGoerke",
