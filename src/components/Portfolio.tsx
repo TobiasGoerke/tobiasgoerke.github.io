@@ -71,41 +71,43 @@ const Portfolio = () => {
     return (
         <section id="portfolio" className="s-portfolio target-section">
             <div className="row s-portfolio__header">
-                <a href="#modal-1">
                 <h3>Projekte und Links</h3>
-                </a>
             </div>
             <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+
                 {portfolio.map((projects, index) => {
                     const modalId = "modal-" + index;
                     return (
-                        <div key={index}>
-                            <div key={"folio-item-" + index} className="column folio-item">
-                                <a href={"#" + modalId} className="folio-item__thumb">
+                        <div key={"folio-item-" + index} className="column folio-item">
+                            <div className="item-wrap">
+                                <a href={"#" + modalId} className="folio-item__thumb overlay">
                                     <img src={projects.image} alt=""
                                          style={{objectFit: (projects.imgFit as any || "cover")}}/>
                                 </a>
                             </div>
-                            <div id={modalId} className="popup-modal slider mfp-hide">
-                                <div className="modal-popup">
-                                    <img src="images/portfolio/gallery/g-droplet.jpg" alt=""/>
+                        </div>
+                    )
+                })}
 
-                                    <div className="modal-popup__desc">
-                                        <h5>Droplet</h5>
-                                        <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel
-                                            voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis
-                                            quae.</p>
-                                        <ul className="modal-popup__cat">
-                                            <li>Branding</li>
-                                            <li>Product Design</li>
-                                        </ul>
-                                    </div>
 
-                                    <a href="https://www.behance.net/" className="modal-popup__details">Project link</a>
-                                </div>
+                {portfolio.map((projects, index) => {
+                    return (
+                        <div key={"modal-popup-" + index} id={"modal-" + index} className="popup-modal slider mfp-hide">
+                            <div className="media">
+                                <img src={projects.image} alt=""
+                                     style={{width: "100%", minWidth: "100%", maxHeight: "300px", objectFit: "scale-down"}}/>
+                            </div>
+                            <div className="description-box">
+                                <h4>{projects.title}</h4>
+                                <p>{projects.description}</p>
+                            </div>
+                            <div className="link-box">
+                                <a href={projects.url}>Details</a>
+                                <a href="#" className="popup-modal-dismiss">Schließen</a>
                             </div>
                         </div>
-                    )})}
+                    )
+                })}
             </div>
         </section>
     );
