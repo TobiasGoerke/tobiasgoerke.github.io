@@ -902,8 +902,8 @@ call-to-action .button {
 
 #contact {
     background: #191919;
-    padding-top: 96px;
-    padding-bottom: 102px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: #636363;
 }
 
@@ -931,16 +931,16 @@ call-to-action .button {
     display: none;
 }
 
-#contact h1:before {
-    font-family: 'FontAwesome';
-    content: "\f0e0";
-    padding-right: 10px;
-    font-size: 72px;
-    line-height: 72px;
-    text-align: left;
-    float: left;
-    color: #ebeeee;
-}
+/*#contact h1:before {*/
+/*    font-family: 'FontAwesome';*/
+/*    content: "\f0e0";*/
+/*    padding-right: 10px;*/
+/*    font-size: 72px;*/
+/*    line-height: 72px;*/
+/*    text-align: left;*/
+/*    float: left;*/
+/*    color: #ebeeee;*/
+/*}*/
 
 #contact h4 {
     font: 16px/24px 'opensans-bold', sans-serif;
