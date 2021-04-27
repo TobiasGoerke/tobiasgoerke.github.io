@@ -86,6 +86,7 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
     },
     {
         "title": "Trace Clustering for an Online Freight Exchange at TIMOCOM",
+        "shortTitle": "Trace Clustering @ TIMOCOM",
         "category": "Publikation",
         "url": "https://congreso.us.es/bpm2020/images/industryforum.pdf",
         "image": "/images/bpm2020.png",

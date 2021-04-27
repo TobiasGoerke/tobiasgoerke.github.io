@@ -125,6 +125,8 @@
     margin-bottom: 5%;
     padding-right: 5%;
     padding-left: 5%;
+
+    -webkit-column-break-inside: avoid;
 }
 
 .works-list-link {
