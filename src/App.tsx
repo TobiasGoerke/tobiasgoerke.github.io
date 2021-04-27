@@ -6,7 +6,6 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-import Slideshow from "./components/Slideshow";
 
 const App = () => {
 
@@ -16,7 +15,7 @@ const App = () => {
             <About/>
             <Resume/>
             <Portfolio/>
-            <Slideshow/>
+            {/* TODO implement eventually? <Slideshow/>*/}
             <Contact/>
             <Footer/>
         </div>
