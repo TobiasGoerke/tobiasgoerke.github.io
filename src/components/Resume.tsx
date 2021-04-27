@@ -30,6 +30,12 @@ const education = [
         "description2": "Thesis: Analyzing and Extending Anchors – A Model-Agnostic ML Explanation Approach"
     },
     {
+        "school": "Universität Liechtenstein",
+        "degree": "Auslandssemester",
+        "graduated": "2017-2018",
+        "description": "Data Science & Business Process Management"
+    },
+    {
         "school": "Westfälische Wilhelms-Universität Münster",
         "degree": "B.Sc. Wirtschaftsinformatik",
         "graduated": "Sept. 2016",
@@ -68,26 +74,22 @@ const skills = [
     }
 ]
 
-// TODO certificates
-// TODO what else?
 
 const certificates = [
     {
-        "title": "TensorFlow Developer Certificate",
+        "title": "Certification: TensorFlow Developer",
         "url": "https://www.credential.net/c4a71c18-2f9f-4cec-9199-a77079ec8d0d",
-        "image": "/images/tensorflow_certificate.png",
     },
     {
-        "title": "Professional Scrum Master",
+        "title": "Certification: Professional Scrum Master",
         "url": "https://www.scrum.org/user/471568",
-        "image": "https://cdn.worldvectorlogo.com/logos/scrumorg-1.svg",
     },
     {
         "title": "Beta Gamma Sigma Member",
         "url": "https://www.betagammasigma.org/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/BGSkey.png"
     }
 ]
+
 
 const Resume = () => {
 
@@ -131,6 +133,27 @@ const Resume = () => {
                                             <em className="date">{entry.graduated}</em>
                                         </p>
                                         <p className="description">{entry.description}<br/>{entry.description2}</p>
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row misc">
+                <div className="three columns header-col">
+                    <h1><span>Sonstiges</span></h1>
+                </div>
+                <div className="nine columns main-col">
+                    <div className="row item">
+                        <div className="twelve columns">
+                            {certificates.map(entry => {
+                                return (
+                                    <div key={entry.title} className="resume-entry misc-entry">
+                                        <h4>{entry.title}</h4>
+                                        <a href={entry.url} target="_blank" rel="noreferrer"> <i
+                                            className="fa fa-external-link"/> </a>
                                     </div>
                                 )
                             })}

@@ -322,7 +322,7 @@ ul#nav li.current a {
     padding-right: 10%;
 }
 
-.education, .work {
+.education, .work, .misc {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E8E8E8;
@@ -353,6 +353,20 @@ ul#nav li.current a {
 
 .resume-entry {
     margin-bottom: 30px;
+}
+
+.misc-entry {
+    display: flex;
+}
+
+#resume h4 {
+    font: 21px/26px 'opensans-bold', sans-serif;
+}
+
+
+.misc-entry a {
+    padding-left: 10px;
+    padding-top: 2px;
 }
 
 /*----------------------------------------------*/
