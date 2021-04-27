@@ -107,7 +107,7 @@ const Resume = () => {
                                     <span>&bull;</span>
                                     <em className="date">{entry.years}</em>
                                 </p>
-                                <p>{entry.description}</p>
+                                <p className="description">{entry.description}</p>
                             </div>
                         )
                     })}
@@ -130,7 +130,7 @@ const Resume = () => {
                                             <span>&bull;</span>
                                             <em className="date">{entry.graduated}</em>
                                         </p>
-                                        <p>{entry.description}<br/>{entry.description2}</p>
+                                        <p className="description">{entry.description}<br/>{entry.description2}</p>
                                     </div>
                                 )
                             })}
