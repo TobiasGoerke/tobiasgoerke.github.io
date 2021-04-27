@@ -1,9 +1,10 @@
 import React from "react";
 import './Portfolio.css';
 
-const portfolio: Array<{ "title": string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
+const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
         "title": "Krisensentiment - Wie Sie Stimmungen in Sozialen Medien Erkennen",
+        "shortTitle": "Das Krisensentiment",
         "category": "Blog",
         "url": "https://blog.viadee.de/sentiment-analyse-yammer",
         "image": "https://blog.viadee.de/hs-fs/hubfs/KI/header-sentimentanalyse.png?width=1460&name=header-sentimentanalyse.png",
@@ -11,6 +12,7 @@ const portfolio: Array<{ "title": string, "category": string, "url": string, "im
     },
     {
         "title": "Machine Learning in der Logistikbranche: Wegbereiter in eine optimierte Zukunft",
+        "shortTitle": "ML in der Logistikbranch",
         "category": "Blog",
         "url": "https://blog.viadee.de/machine-learning-in-der-logistikbranche",
         "image": "https://blog.viadee.de/hs-fs/hubfs/KI/machine-learning-logistikbr.jpg?width=1460&name=machine-learning-logistikbr.jpg",
@@ -18,6 +20,7 @@ const portfolio: Array<{ "title": string, "category": string, "url": string, "im
     },
     {
         "title": "Machine Learning Modelle Erklärbar Machen mit Anchors",
+        "shortTitle": "XAI & Anchors",
         "category": "Blog",
         "url": "https://blog.viadee.de/machine-learning-modelle-erklaerbar-machen-mit-anchors",
         "image": "https://blog.viadee.de/hs-fs/hubfs/KI/Anchors_oT.jpg?width=1460&name=Anchors_oT.jpg",
@@ -25,6 +28,7 @@ const portfolio: Array<{ "title": string, "category": string, "url": string, "im
     },
     {
         "title": "Cloud Native KI: MLOps Mithilfe der Kubeflow Plattform",
+        "shortTitle": "Cloud Native KI mit Kubeflow",
         "category": "Talk",
         "url": "https://www.youtube.com/watch?v=PRYA2RPFlSw",
         "image": "https://upload.wikimedia.org/wikipedia/en/2/21/Kubeflow-logo.png",
@@ -32,6 +36,7 @@ const portfolio: Array<{ "title": string, "category": string, "url": string, "im
     },
     {
         "title": "Explainable AI or Halting Faulty Models ahead of Disaster",
+        "shortTitle": "Halting Faulty Models ahead of Disaster",
         "category": "Blog",
         "url": "https://www.kdnuggets.com/2019/03/explainable-ai.html",
         "image": "https://www.kdnuggets.com/wp-content/uploads/artificial-intelligence-agi.jpg",
@@ -39,6 +44,7 @@ const portfolio: Array<{ "title": string, "category": string, "url": string, "im
     },
     {
         "title": "Interpretable Machine Learning Book: Scoped Rules (Anchors)",
+        "shortTitle": "Scoped Rules (Anchors)",
         "category": "Gastbeitrag",
         "url": "https://christophm.github.io/interpretable-ml-book/anchors.html",
         "image": "https://christophm.github.io/interpretable-ml-book/images/anchors-visualization.png",
@@ -46,6 +52,7 @@ const portfolio: Array<{ "title": string, "category": string, "url": string, "im
     },
     {
         "title": "Equipping Titanic with Anchors: Halting Faulty Models ahead of Disaster",
+        "shortTitle": "Explainable AI goes Titanic",
         "category": "Blog",
         "url": "https://www.kaggle.com/c/titanic/discussion/83178",
         "image": "https://www.kaggle.com/static/images/site-logo.png",
@@ -54,6 +61,7 @@ const portfolio: Array<{ "title": string, "category": string, "url": string, "im
     },
     {
         "title": "Hanseatic Governance: Understanding Blockchain as Organizational Technology",
+        "shortTitle": "Hanseatic Governance",
         "category": "Publikation",
         "url": "https://www.wi.uni-muenster.de/research/publications/154505",
         "image": "https://c5.rgstatic.net/m/419438641133902/images/icons/svgicons/new-index-logo.svg",
@@ -98,7 +106,7 @@ const Portfolio = () => {
                                 <div className="works-item-text-container">
                                     <div className="works-item-category">{projects.category}</div>
 
-                                    <div className="works-item-title">{projects.title}</div>
+                                    <div className="works-item-title">{projects.shortTitle || projects.title}</div>
 
                                 </div>
                             </a>
