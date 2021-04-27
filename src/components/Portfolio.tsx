@@ -100,10 +100,12 @@ const Portfolio = () => {
                     return (
                         <li key={"works-list-item-" + index} className="item-wrap works-list-item">
                             <a href={"#" + modalId} className="works-list-link">
+
                                 <img className="works-item-pic" src={projects.image} alt=""
                                      style={{objectFit: (projects.imgFit as any || "cover")}}/>
 
                                 <div className="works-item-text-container">
+                                    <i className="fa fa-expand expand-icon" />
                                     <div className="works-item-category">{projects.category}</div>
 
                                     <div className="works-item-title">{projects.shortTitle || projects.title}</div>

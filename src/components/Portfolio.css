@@ -160,9 +160,16 @@
     font: 20px 'opensans-bold', sans-serif;
 }
 
-/* Transitions */
+.expand-icon {
+    float: right;
+    padding: 2%;
+    color: grey;
+}
+
+/* Transitions / hovering */
 .works-list-link:focus,
 .works-list-link:hover {
-    color: green;
-    outline: 0;
+    opacity: 0.7;
+    -webkit-filter: grayscale(50%);
 }
+

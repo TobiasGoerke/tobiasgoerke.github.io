@@ -101,7 +101,7 @@ const Resume = () => {
                 <div className="nine columns main-col">
                     {work.map(entry => {
                         return (
-                            <div key={entry.title}>
+                            <div key={entry.title} className="resume-entry">
                                 <h3>{entry.title}</h3>
                                 <p className="info">{entry.company}
                                     <span>&bull;</span>
@@ -123,7 +123,7 @@ const Resume = () => {
                         <div className="twelve columns">
                             {education.map(entry => {
                                 return (
-                                    <div key={entry.degree}>
+                                    <div key={entry.degree} className="resume-entry">
                                         <h3>{entry.degree}</h3>
                                         <p className="info">
                                             {entry.school}
