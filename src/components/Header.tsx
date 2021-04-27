@@ -55,10 +55,9 @@ const Header = () => {
                 <ul id="nav" className="nav">
                     <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                     <li><a className="smoothscroll" href="#about">Über mich</a></li>
-                    <li><a className="smoothscroll" href="#resume">Resume</a></li>
-                    <li><a className="smoothscroll" href="#portfolio">Works</a></li>
-                    <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-                    <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                    <li><a className="smoothscroll" href="#resume">Résumé</a></li>
+                    <li><a className="smoothscroll" href="#portfolio">Projekte und Links</a></li>
+                    <li><a className="smoothscroll" href="#contact">Kontakt</a></li>
                 </ul>
             </nav>
 

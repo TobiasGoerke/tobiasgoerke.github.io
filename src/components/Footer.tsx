@@ -11,7 +11,7 @@ const Footer = () => {
                         {networks.map(function (network) {
                             return (
                                 <li key={network.name}>
-                                    <a href={network.url} target="_blank" rel="noreferrer">
+                                    <a href={network.url} target="_blank" rel="noreferrer" style={{color: "white"}}>
                                         <i className={network.iconClassName}/>
                                     </a>
                                 </li>
