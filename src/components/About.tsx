@@ -6,7 +6,7 @@ const About = () => {
         <section id="about">
             <div className="row">
                 <div className="three columns">
-                    <img className="profile-pic" src="/images/profile_picture.jpg" alt="Profilbild Tobias Goerke"/>
+                    <img className="profile-pic" src="/images/profile_picture.jpg" alt="Tobias Goerke"/>
                 </div>
                 <div className="seven columns main-col">
                     <h2>Über Mich</h2>
@@ -14,7 +14,7 @@ const About = () => {
                     <p>
                         Als Data Scientist berate ich Firmen im Umkreis von Münster.
                         Hierbei liegt mein Fokus auf der Einführung künstlich intelligenter Systeme und der Fragestellung,
-                        wie diese sowohl inhaltlich, als auch organisatorisch in bestehende Strukturen integriert werden
+                        wie diese sowohl inhaltlich als auch organisatorisch in bestehende Strukturen integriert werden
                         können.
                     </p>
                 </div>
