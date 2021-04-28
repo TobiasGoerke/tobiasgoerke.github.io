@@ -35,7 +35,9 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../images/header-background.jpg) no-repeat top center;
+    background: #161415 url(../images/header-background.jpg) no-repeat 30% center;
+    /* Replace 30% with top on new image. Used to fit current image */
+    /* Bestellnummer: 2071482589 iStock */
     background-size: cover !important;
     -webkit-background-size: cover !important;
     text-align: center;
