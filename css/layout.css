@@ -349,6 +349,7 @@ ul#nav li.current a {
     color: #6E7881;
     margin-bottom: 18px;
     margin-top: 9px;
+    line-height: 22px;
 }
 
 .resume-entry {
