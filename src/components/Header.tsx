@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 
 const occupations = [
     "Unternehmensberater", "Data Scientist", "Machine Learning Enthusiast", "MLOps Engineer",
-    "XAI Verfechter", "Entwickler", "Cloud Engineer", "Hobbybrauer"
+    "ML Explainer", "Entwickler", "Cloud Engineer"
 ]
 
 export const networks: Array<{ name: string, url: string, iconClassName: string }> = [

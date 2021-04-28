@@ -12,7 +12,7 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
     },
     {
         "title": "Machine Learning in der Logistikbranche: Wegbereiter in eine optimierte Zukunft",
-        "shortTitle": "ML in der Logistikbranch",
+        "shortTitle": "ML in der Logistikbranche",
         "category": "Blog",
         "url": "https://blog.viadee.de/machine-learning-in-der-logistikbranche",
         "image": "/images/ml-logistics.jpg",

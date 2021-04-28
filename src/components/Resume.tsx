@@ -168,9 +168,6 @@ const Resume = () => {
                     <h1><span>Skills</span></h1>
                 </div>
                 <div className="nine columns main-col">
-                    <p>
-                        TODO short sentence
-                    </p>
                     <div className="bars">
                         <ul className="skills">
                             {skills.map(skill => {

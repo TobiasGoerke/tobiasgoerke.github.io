@@ -8,28 +8,26 @@ const About = () => {
                 <div className="three columns">
                     <img className="profile-pic" src="/images/profile_picture.jpg" alt="Profilbild Tobias Goerke"/>
                 </div>
-                <div className="nine columns main-col">
+                <div className="seven columns main-col">
                     <h2>Über Mich</h2>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-                        sit amet.
+                        Als Data Scientist berate ich Firmen im Umkreis von Münster.
+                        Hierbei liegt mein Fokus auf der Einführung künstlich intelligenter System und der Fragestellung,
+                        wie diese sowohl inhaltlich, als auch organisatorisch in bestehende Strukturen integriert werden
+                        können.
                     </p>
-                    <div className="row">
-                        <div className="columns contact-details">
-                            <h2>Kontaktdaten</h2>
-                            <p className="address">
-                                <span>Tobias Goerke</span><br/>
-                                <span>Münster, NRW</span><br/>
-                                <span>
+                </div>
+                <div className="two columns main-col">
+                    <h2>Kontaktdaten</h2>
+                    <p className="address">
+                        <span>Tobias Goerke</span><br/>
+                        <span>Münster, NRW</span><br/>
+                        <span>
                                     <a style={{color: "inherit"}}
                                        href="mailto:tobias.goerke@gmail.com">tobias.goerke@gmail.com</a>
                                 </span>
-                            </p>
-                        </div>
-                    </div>
+                    </p>
                 </div>
             </div>
 
