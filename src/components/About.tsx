@@ -13,7 +13,7 @@ const About = () => {
 
                     <p>
                         Als Data Scientist berate ich Firmen im Umkreis von Münster.
-                        Hierbei liegt mein Fokus auf der Einführung künstlich intelligenter System und der Fragestellung,
+                        Hierbei liegt mein Fokus auf der Einführung künstlich intelligenter Systeme und der Fragestellung,
                         wie diese sowohl inhaltlich, als auch organisatorisch in bestehende Strukturen integriert werden
                         können.
                     </p>
