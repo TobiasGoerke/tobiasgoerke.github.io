@@ -92,7 +92,23 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "image": "/images/bpm2020.png",
         "imgFit": "contain",
         "description": "To guarantee a high level of customer satisfaction, providers of highly frequented platforms strive to continuously improve their application design. One promising potential to discover issues regarding the application design and at the same time consider the heterogeneity of different users lies in the clustering of traces and the examination of the corresponding process models. In order to leverage this potential, this study investigates how large-scale event logs can be preprocessed and clustered in order to enable cluster-specific application design by examining an event log of an online freight exchange. Using the Action Design Research approach, which allows a joint shaping of a solution with practitioners, a pipeline is developed, which enables the preprocessing of large-scale event logs and the execution of three trace clustering approaches. The investigation of the resulting clusters in the form of process models delivers valuable insights into customer behavior, helps to identify weaknesses and improvement possibilities of the platform and thereby provides a basis to support application design."
-    }
+    },
+    {
+        "title": "CryptoTiles",
+        "category": "Anwendung",
+        "url": "https://play.google.com/store/apps/details?id=de.goerke.tobias.tiles.crypto",
+        "image": "/images/cryptotiles.png",
+        "imgFit": "contain",
+        "description": "CryptoTiles provides Tiles that let you view charts and prices of all the cryptocurrencies you are interested in directly on your Wear OS watch."
+    },
+    {
+        "title": "StockTiles",
+        "category": "Anwendung",
+        "url": "https://play.google.com/store/apps/details?id=de.goerke.tobias.tiles.stock",
+        "image": "/images/stocktiles.png",
+        "imgFit": "contain",
+        "description": "StockTiles provides Tiles that let you view charts and prices of all the stock assets you are interested in directly on your Wear OS watch."
+    },
 ]
 
 const Portfolio = () => {
