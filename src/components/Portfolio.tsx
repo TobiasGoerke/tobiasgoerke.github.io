@@ -3,6 +3,22 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Kubeflow: Re-Introducing the Volumes Viewer",
+        "shortTitle": "Kubeflow Volumes Viewer",
+        "category": "Open Source",
+        "url": "https://github.com/kubeflow/kubeflow/pull/6876",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "description": "Im Rahmen einer Open-Source contribution für das Kubeflow v1.8 release habe ich den sog. Volumes Viewer entwickelt und integriert, der es Nutzer:innen sehr einfach macht, mit Hilfe eines Filebrowsers Daten ins bzw. aus dem Cluster zu laden. Hierdurch werden bekannte Hindernisse im Umgang mit Daten und Kubernetes überwunden."
+    },
+    {
+        "title": "Filebrowser: Integrating tus.io for resumable and chunked uploads",
+        "shortTitle": "Tus.io Protocol Integration",
+        "category": "Open Source",
+        "url": "https://github.com/filebrowser/filebrowser/pull/2145",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "description": "Damit für Nutzer:innen des Filebrowser-Projekts große Uploads nicht an Proxy-Limitationen scheitern, habe ich das tus.io Protokoll in den Filebrowser integriert. Durch dieses fast einjährige Nebenprojekt können Uploads nun in mehreren, kleinen Teilen erfolgen. Abgebrochene Uploads können wiederaufgenommen werden. Der Beitrag war motiviert durch die Entwicklung des Kubeflow Volumes Viewer."
+    },
+    {
         "title": "Kubeflow @ Provinzial: Aufbau einer modernen Machine Learning und MLOps-Plattform im Versicherungswesen",
         "shortTitle": "Kubeflow @ Provinzial",
         "category": "Blog",
