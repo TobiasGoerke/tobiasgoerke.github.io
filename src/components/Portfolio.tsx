@@ -3,6 +3,22 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Kubeflow @ Provinzial: Aufbau einer modernen Machine Learning und MLOps-Plattform im Versicherungswesen",
+        "shortTitle": "Kubeflow @ Provinzial",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/kubeflow-provinzial-aufbau-einer-modernen-machine-learning-und-mlops-plattform-im-versicherungswesen",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg?width=1000&height=500&name=0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg",
+        "description": "KI-Methoden und insbesondere Machine Learning-Ansätze können viele Anwendungsfälle in Unternehmen effizienter gestalten – dieses Potenzial identifizierte die Provinzial Holding AG bereits frühzeitig. Der Wunsch, diese neuartigen Verfahren in den produktiven Einsatz zu bringen und in bestehende Produkte zu integrieren, gestaltete sich jedoch anspruchsvoll in seiner Realisierung. Wie hat also ein Unternehmen, welches in seiner Größenordnung den Top-10 Versicherern Deutschlands angehört, es geschafft, seine KI-Initiativen und Methoden konzernweit zu konsolidieren?"
+    },
+    {
+        "title": "Das Operator Pattern in Kubernetes",
+        "shortTitle": "Kubernetes Operator",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/operator-pattern-in-kubernetes",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/Operator%20Pattern%20in%20Kubernetes.png?width=736&height=368&name=Operator%20Pattern%20in%20Kubernetes.png",
+        "description": "Operator in Kubernetes sind allgegenwärtig und unverzichtbar. Doch was sind Operator und wie können wir sie nutzen, um das eigene Cluster um Funktionalität zu erweitern? Wie nutzt Kubernetes dieses Pattern, um z.B. Pods aus Jobs zu erzeugen? Wir führen durch die Begrifflichkeiten und erklären, wie Operator, Controller und Custom Resources zusammenspielen. Zudem stellen wir verschiedene Frameworks vor, mit denen eigene Controller entwickelt werden können, wodurch sich das Management des Clusters vereinfacht."
+    },
+    {
         "title": "Krisensentiment - Wie Sie Stimmungen in Sozialen Medien Erkennen",
         "shortTitle": "Das Krisensentiment",
         "category": "Blog",
