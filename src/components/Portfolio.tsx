@@ -3,6 +3,14 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "DataHub: Die Zukunft der unternehmensweiten Datenstrategie? (BigData Insider, 06.09.2023)",
+        "shortTitle": "DataHub (BigData Insider)",
+        "category": "Artikel",
+        "url": "https://www.bigdata-insider.de/datahub-die-zukunft-der-unternehmensweiten-datenstrategie-a-3aaa1ea99b1d8eb0aa901acab741950c/",
+        "image": "https://datahubproject.io/img/datahub-logo-color-light-horizontal.svg",
+        "description": "Durch die zunehmende Bedeutung von Daten wird ein reibungsloser Umgang mit ihnen immer wichtiger. Die zentrale Verwaltung und Bereitstellung von (Meta-)Daten spielen dabei entscheidende Rollen. Moderne Daten-plattformen wie DataHub versprechen Unterstützung, indem sie als zentrale Instanzen Beschreibungen und Dokumentationen von Datenquellen verschiedener Geschäftseinheiten zusammenführen und so eine unterneh-mensweite Datenstrategie befähigen. Dieser Beitrag berichtet von unseren Projekterfahrungen im Aufbau solcher DataHub-Instanzen. Wir erläutern ihre datenstrategische Bedeutung und erklären, wie die Plattformlösung wertschaffend für Unternehmen einge-setzt werden kann. Zudem berichten wir über typische Probleme, die bei der Integration der Plattform auftreten können. Schlussendlich diskutieren wir architekturelle Überlegungen für dezentrale Datenstrukturen und zeigen, wie selbst semistrukturierte, bislang nicht durch DataHub unterstützte Datenquellen angebunden werden kön-nen."
+    },
+    {
         "title": "Kubeflow: Re-Introducing the Volumes Viewer",
         "shortTitle": "Kubeflow Volumes Viewer",
         "category": "Open Source",
