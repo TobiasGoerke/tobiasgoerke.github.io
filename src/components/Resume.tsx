@@ -53,12 +53,16 @@ const skills = [
         "level": "80%"
     },
     {
-        "name": "Kubeflow",
-        "level": "90%"
+        "name": "Kubeflow / MLOps",
+        "level": "95%"
     },
     {
         "name": "Kubernetes",
-        "level": "75%"
+        "level": "90%"
+    },
+    {
+        "name": "Go",
+        "level": "50%"
     },
     {
         "name": "Java",
