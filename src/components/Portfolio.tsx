@@ -8,6 +8,7 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "category": "Artikel",
         "url": "https://www.bigdata-insider.de/datahub-die-zukunft-der-unternehmensweiten-datenstrategie-a-3aaa1ea99b1d8eb0aa901acab741950c/",
         "image": "https://datahubproject.io/img/datahub-logo-color-light-horizontal.svg",
+        "imgFit": "contain",
         "description": "Durch die zunehmende Bedeutung von Daten wird ein reibungsloser Umgang mit ihnen immer wichtiger. Die zentrale Verwaltung und Bereitstellung von (Meta-)Daten spielen dabei entscheidende Rollen. Moderne Daten-plattformen wie DataHub versprechen Unterstützung, indem sie als zentrale Instanzen Beschreibungen und Dokumentationen von Datenquellen verschiedener Geschäftseinheiten zusammenführen und so eine unterneh-mensweite Datenstrategie befähigen. Dieser Beitrag berichtet von unseren Projekterfahrungen im Aufbau solcher DataHub-Instanzen. Wir erläutern ihre datenstrategische Bedeutung und erklären, wie die Plattformlösung wertschaffend für Unternehmen einge-setzt werden kann. Zudem berichten wir über typische Probleme, die bei der Integration der Plattform auftreten können. Schlussendlich diskutieren wir architekturelle Überlegungen für dezentrale Datenstrukturen und zeigen, wie selbst semistrukturierte, bislang nicht durch DataHub unterstützte Datenquellen angebunden werden kön-nen."
     },
     {
@@ -148,6 +149,14 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "image": "/images/stocktiles.png",
         "imgFit": "contain",
         "description": "StockTiles provides Tiles that let you view charts and prices of all the stock assets you are interested in directly on your Wear OS watch."
+    },
+    {
+        "title": "Implementierung des Anchors Erklärers für maschinelle Lerner in Java",
+        "shortTitle": "Anchors (XAI)",
+        "category": "Open Source",
+        "url": "https://github.com/viadee/javaAnchorExplainer",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "description": "In meinster Masterarbeit beschäftigte ich mich mit erklärbarem maschinellem Lernen und untersuchte hierfür einen spezifischen Algorithmus, genannt Anchors. Die bis dato erste Anchors Implementierung in Java habe ich der Open-Source Community auf GitHub zur Verfügung gestellt."
     },
 ]
 
