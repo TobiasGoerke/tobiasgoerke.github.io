@@ -25,7 +25,7 @@ const education = [
     {
         "school": "Westfälische Wilhelms-Universität Münster",
         "degree": "M.Sc. Information Systems",
-        "graduated": "Dez. 2019",
+        "graduated": "Dez. 2018",
         "description": "Fokus: Business Networks & Information Systems Development",
         "description2": "Thesis: Analyzing and Extending Anchors – A Model-Agnostic ML Explanation Approach"
     },
