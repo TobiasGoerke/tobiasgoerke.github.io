@@ -8,7 +8,7 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "category": "Blog",
         "url": "https://blog.viadee.de/llms-optimieren-mit-embeddings-und-fine-tuning",
         "image": "https://blog.viadee.de/hs-fs/hubfs/image%20(3)(1).png?width=1536&height=768&name=image%20(3)(1).png",
-        "description": "Large Language Models (LLMs) wie ChatGPT können viele Herausforderungen, wie das Schreiben von Texten und Code, von Haus aus bewältigen. Doch haben sie im Normalfall keinen Zugriff auf eigene bzw. unternehmensinterne Daten. Was also, wenn ihnen Informationen fehlen und sie falsche Antworten liefern? In diesem Beitrag untersuchen wir die Lösungsansätze Embedding bzw. Retrieval Augmented Generation und Fine-Tuning, um spezifisches Kontextmaterial bereitzustellen und Anwendungsfälle vom Typ "Chat with your Data" zu ermöglichen. So können LLMs auf neuem Terrain eingesetzt werden und mit mehr Zuversicht in die Produktion gehen."
+        "description": "Large Language Models (LLMs) wie ChatGPT können viele Herausforderungen, wie das Schreiben von Texten und Code, von Haus aus bewältigen. Doch haben sie im Normalfall keinen Zugriff auf eigene bzw. unternehmensinterne Daten. Was also, wenn ihnen Informationen fehlen und sie falsche Antworten liefern? In diesem Beitrag untersuchen wir die Lösungsansätze Embedding bzw. Retrieval Augmented Generation und Fine-Tuning, um spezifisches Kontextmaterial bereitzustellen und Anwendungsfälle vom Typ 'Chat with your Data' zu ermöglichen. So können LLMs auf neuem Terrain eingesetzt werden und mit mehr Zuversicht in die Produktion gehen."
     },
     {
         "title": "Self-Hosted Code-Copilot mit Llama-2",
