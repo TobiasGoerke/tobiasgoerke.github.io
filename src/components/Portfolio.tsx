@@ -1,7 +1,14 @@
-import React from "react";
 import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
+    {
+        "title": "Ein Blick in die Black-Box: Explainable AI (XAI) erklärt",
+        "shortTitle": "Explainable AI erklärt (Red Stack Magazin)",
+        "category": "Artikel",
+        "url": "https://meine.doag.org/zeitschriften/id.211.red-stack-magazin-inkl-business-news-nr-2-2024-ist-online/",
+        "image": "https://tobias-goerke.de/files/xaiexplaineddoag.jpg",
+        "description": "Machine-Learning-Modelle (ML-Modelle) finden in einem enormen Tempo Einzug in unseren Alltag und werden für Prognosen, datengetriebene Entscheidungen oder Generierung von Inhalten genutzt. Um die gewünschte Genauigkeit der Vorhersagen zu erreichen, werden statt menschenverständlicher Entscheidungssysteme oftmals komplexe Verfahren wie tiefe neuronale Netze (DNNs) verwendet, deren Entscheidungen aufgrund ihrer inhärenten Komplexität unverständlich und nicht nachvollziehbar sind. Der Bereich der Explainable AI (XAI) versucht, das Problem fehlender Transparenz von ML-Modellen zu adressieren und die Ergebnisse für den Menschen verständlich zu machen. In diesem Artikel wird das Potenzial von XAI erschlossen und einige exemplarische XAI-Methoden kurz vorgestellt. Im Anschluss werden Kriterien aufgeführt, die bei der Auswahl einer passenden XAI-Methode zu beachten sind. Abschließend werden allgemeine Handlungsempfehlungen für die Sicherstellung interpretierbarer ML-Modelle innerhalb eines Entwicklungs- und Deployment-Workflows gegeben."
+    },
     {
         "title": "Datenbusiness Podcast #159 mit Dr. Frank Köhne & Tobias Goerke von der viadee | LLMs, RAG, MLOps",
         "shortTitle": "Datenbusiness Podcast: LLMs, RAGs & MLOps",
@@ -33,7 +40,7 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "url": "https://www.bigdata-insider.de/datahub-die-zukunft-der-unternehmensweiten-datenstrategie-a-3aaa1ea99b1d8eb0aa901acab741950c/",
         "image": "https://datahubproject.io/img/datahub-logo-color-light-horizontal.svg",
         "imgFit": "contain",
-        "description": "Durch die zunehmende Bedeutung von Daten wird ein reibungsloser Umgang mit ihnen immer wichtiger. Die zentrale Verwaltung und Bereitstellung von (Meta-)Daten spielen dabei entscheidende Rollen. Moderne Daten-plattformen wie DataHub versprechen Unterstützung, indem sie als zentrale Instanzen Beschreibungen und Dokumentationen von Datenquellen verschiedener Geschäftseinheiten zusammenführen und so eine unterneh-mensweite Datenstrategie befähigen. Dieser Beitrag berichtet von unseren Projekterfahrungen im Aufbau solcher DataHub-Instanzen. Wir erläutern ihre datenstrategische Bedeutung und erklären, wie die Plattformlösung wertschaffend für Unternehmen einge-setzt werden kann. Zudem berichten wir über typische Probleme, die bei der Integration der Plattform auftreten können. Schlussendlich diskutieren wir architekturelle Überlegungen für dezentrale Datenstrukturen und zeigen, wie selbst semistrukturierte, bislang nicht durch DataHub unterstützte Datenquellen angebunden werden kön-nen."
+        "description": "Durch die zunehmende Bedeutung von Daten wird ein reibungsloser Umgang mit ihnen immer wichtiger. Die zentrale Verwaltung und Bereitstellung von (Meta-)Daten spielen dabei entscheidende Rollen. Moderne Daten-plattformen wie DataHub versprechen Unterstützung, indem sie als zentrale Instanzen Beschreibungen und Dokumentationen von Datenquellen verschiedener Geschäftseinheiten zusammenführen und so eine unterneh-mensweite Datenstrategie befähigen. Dieser Beitrag berichtet von unseren Projekterfahrungen im Aufbau solcher DataHub-Instanzen. Wir erläutern ihre datenstrategische Bedeutung und erklären, wie die Plattformlösung wertschaffend für Unternehmen einge-setzt werden kann. Zudem berichten wir über typische Probleme, die bei der Integration der Plattform auftreten können. Schlussendlich diskutieren wir architekturelle Überlegungen für dezentrale Datenstrukturen und zeigen, wie selbst semistrukturierte, bislang nicht durch DataHub unterstützte Datenquellen angebunden werden können."
     },
     {
         "title": "Kubeflow: Re-Introducing the Volumes Viewer",
@@ -57,7 +64,7 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "category": "Blog",
         "url": "https://blog.viadee.de/kubeflow-provinzial-aufbau-einer-modernen-machine-learning-und-mlops-plattform-im-versicherungswesen",
         "image": "https://blog.viadee.de/hs-fs/hubfs/0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg?width=1000&height=500&name=0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg",
-        "description": "KI-Methoden und insbesondere Machine Learning-Ansätze können viele Anwendungsfälle in Unternehmen effizienter gestalten – dieses Potenzial identifizierte die Provinzial Holding AG bereits frühzeitig. Der Wunsch, diese neuartigen Verfahren in den produktiven Einsatz zu bringen und in bestehende Produkte zu integrieren, gestaltete sich jedoch anspruchsvoll in seiner Realisierung. Wie hat also ein Unternehmen, welches in seiner Größenordnung den Top-10 Versicherern Deutschlands angehört, es geschafft, seine KI-Initiativen und Methoden konzernweit zu konsolidieren?"
+        "description": "KI-Methoden und insbesondere Machine Learning-Ansätze können viele Anwendungsfälle in Unternehmen effizienter gestalten - dieses Potenzial identifizierte die Provinzial Holding AG bereits frühzeitig. Der Wunsch, diese neuartigen Verfahren in den produktiven Einsatz zu bringen und in bestehende Produkte zu integrieren, gestaltete sich jedoch anspruchsvoll in seiner Realisierung. Wie hat also ein Unternehmen, welches in seiner Größenordnung den Top-10 Versicherern Deutschlands angehört, es geschafft, seine KI-Initiativen und Methoden konzernweit zu konsolidieren?"
     },
     {
         "title": "Das Operator Pattern in Kubernetes",
