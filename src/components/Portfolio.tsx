@@ -3,6 +3,71 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Datenbusiness Podcast #159 mit Dr. Frank Köhne & Tobias Goerke von der viadee | LLMs, RAG, MLOps",
+        "shortTitle": "Datenbusiness Podcast: LLMs, RAGs & MLOps",
+        "category": "Podcast",
+        "url": "https://open.spotify.com/episode/1yJ7UANiEltIfevKxUM1ST?si=cac9a4f937884bf3",
+        "image": "https://i.scdn.co/image/ab67656300005f1ff9e464171b3c47a8babf4e62",
+        "description": "Mein Kollege Dr. Frank Köhne und ich waren zu Gast beim datenbusiness Podcast und haben über die viadee, LLMs, RAG und MLOps gesprochen. Ein Videocast der Folge ist auf Youtube zu finden (https://www.youtube.com/watch?v=Uz9YNGiN9pY). Folgenbeschreibung: IT-Unternehmensberatung mit ganz besonderer Kultur. Die viadee steht seit 1994 für Unabhängigkeit, fachliches Know-how und Innovationsfreude. Mit mehr als 200 Mitarbeiter:innen an den Standorten in Münster, Köln und Dortmund berät die viadee namhafte Unternehmen aus unterschiedlichen Branchen in allen Phasen der Softwareentwicklung. Die Dienstleistungen reichen von der Entwicklung komplexer Anwendungssysteme über den Aufbau der IT-Architekturen bis zur Optimierung der Geschäftsprozesse, alles maßgeblich gesteuert durch Qualitäts- und Projektmanagement. Im heutigen Gespräch erfahren wir mehr über die viadee und unterhalten uns weiter über die fachlichen Themen rund um LLMs, RAG sowie MLOps."
+    },
+    {
+        "title": "Von Chat with your Data bis ChatGPT mit Embedded & Fine-Tuned LLMs",
+        "shortTitle": "LLM Embeddings & Fine-Tuning",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/llms-optimieren-mit-embeddings-und-fine-tuning",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/image%20(3)(1).png?width=1536&height=768&name=image%20(3)(1).png",
+        "description": "Large Language Models (LLMs) wie ChatGPT können viele Herausforderungen, wie das Schreiben von Texten und Code, von Haus aus bewältigen. Doch haben sie im Normalfall keinen Zugriff auf eigene bzw. unternehmensinterne Daten. Was also, wenn ihnen Informationen fehlen und sie falsche Antworten liefern? In diesem Beitrag untersuchen wir die Lösungsansätze Embedding bzw. Retrieval Augmented Generation und Fine-Tuning, um spezifisches Kontextmaterial bereitzustellen und Anwendungsfälle vom Typ 'Chat with your Data' zu ermöglichen. So können LLMs auf neuem Terrain eingesetzt werden und mit mehr Zuversicht in die Produktion gehen."
+    },
+    {
+        "title": "Self-Hosted Code-Copilot mit Llama-2",
+        "shortTitle": "Llama-2 Copilot",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/self-hosted-code-copilot-mit-llama-2",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/Code_Llama-1000x500.jpg?width=1500&height=750&name=Code_Llama-1000x500.jpg",
+        "description": "Längst ist der Entwickleralltag durch Machine Learning und Large Language Models (LLMs) geprägt. Bislang führte OpenAI die populärsten KI-Tools ein und sicherte sich durch einen Vorsprung in Forschung und Entwicklung eine führende Position im Bereich KI-Anwendungen. Dank ihrer Modelle GPT und Codex konnten sie Anwendungen wie ChatGPT und GitHub Copilot ermöglichen. Diese wurden weitreichend adaptiert und führen bei Entwickler:innen zu teilweise erheblichen Produktivitätssteigerungen.  Nun holt OpenAIs Konkurrenz auf und durchbricht das Monopol mit der Veröffentlichung verschiedener Alternativmodelle. Insbesondere der Konzern Meta geht mit gutem Beispiel voran und stellt sein Modell Llama-2 kostenlos zur Verfügung – solange es nicht von Anwendungen mit mehr als 700 Millionen Nutzer:innen genutzt wird. In vielen Disziplinen erreicht Llama-2 eine mit GPT-4 vergleichbare Leistung, wie Metas wissenschaftliche Publikation belegt. Somit steht Unternehmen, die nicht länger von Anbietern wie OpenAI abhängig sein möchten oder können, endlich eine wahre Alternative zur Verfügung.  In diesem Artikel wird beleuchtet, wie das Llama-2 Modell auf unternehmenseigener Infrastruktur bereitgestellt werden kann. Auf diesem Wege kann auch das am 24.08.2023 von Meta veröffentlichte Code Llama Modell, das speziell für diesen Anwendungsfall erstellt wurde, genutzt werden. Darüber hinaus wird anhand eines VSCode-Plugins veranschaulicht, wie die KI zur Steigerung der Produktivität integriert werden kann."
+    },
+    {
+        "title": "DataHub: Die Zukunft der unternehmensweiten Datenstrategie? (BigData Insider, 06.09.2023)",
+        "shortTitle": "DataHub (BigData Insider)",
+        "category": "Artikel",
+        "url": "https://www.bigdata-insider.de/datahub-die-zukunft-der-unternehmensweiten-datenstrategie-a-3aaa1ea99b1d8eb0aa901acab741950c/",
+        "image": "https://datahubproject.io/img/datahub-logo-color-light-horizontal.svg",
+        "imgFit": "contain",
+        "description": "Durch die zunehmende Bedeutung von Daten wird ein reibungsloser Umgang mit ihnen immer wichtiger. Die zentrale Verwaltung und Bereitstellung von (Meta-)Daten spielen dabei entscheidende Rollen. Moderne Daten-plattformen wie DataHub versprechen Unterstützung, indem sie als zentrale Instanzen Beschreibungen und Dokumentationen von Datenquellen verschiedener Geschäftseinheiten zusammenführen und so eine unterneh-mensweite Datenstrategie befähigen. Dieser Beitrag berichtet von unseren Projekterfahrungen im Aufbau solcher DataHub-Instanzen. Wir erläutern ihre datenstrategische Bedeutung und erklären, wie die Plattformlösung wertschaffend für Unternehmen einge-setzt werden kann. Zudem berichten wir über typische Probleme, die bei der Integration der Plattform auftreten können. Schlussendlich diskutieren wir architekturelle Überlegungen für dezentrale Datenstrukturen und zeigen, wie selbst semistrukturierte, bislang nicht durch DataHub unterstützte Datenquellen angebunden werden kön-nen."
+    },
+    {
+        "title": "Kubeflow: Re-Introducing the Volumes Viewer",
+        "shortTitle": "Kubeflow Volumes Viewer",
+        "category": "Open Source",
+        "url": "https://github.com/kubeflow/kubeflow/pull/6876",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "description": "Im Rahmen einer Open-Source contribution für das Kubeflow v1.8 release habe ich den sog. Volumes Viewer entwickelt und integriert, der es Nutzer:innen sehr einfach macht, mit Hilfe eines Filebrowsers Daten ins bzw. aus dem Cluster zu laden. Hierdurch werden bekannte Hindernisse im Umgang mit Daten und Kubernetes überwunden."
+    },
+    {
+        "title": "Filebrowser: Integrating tus.io for resumable and chunked uploads",
+        "shortTitle": "Tus.io Protocol Integration",
+        "category": "Open Source",
+        "url": "https://github.com/filebrowser/filebrowser/pull/2145",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "description": "Damit für Nutzer:innen des Filebrowser-Projekts große Uploads nicht an Proxy-Limitationen scheitern, habe ich das tus.io Protokoll in den Filebrowser integriert. Durch dieses fast einjährige Nebenprojekt können Uploads nun in mehreren, kleinen Teilen erfolgen. Abgebrochene Uploads können wiederaufgenommen werden. Der Beitrag war motiviert durch die Entwicklung des Kubeflow Volumes Viewer."
+    },
+    {
+        "title": "Kubeflow @ Provinzial: Aufbau einer modernen Machine Learning und MLOps-Plattform im Versicherungswesen",
+        "shortTitle": "Kubeflow @ Provinzial",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/kubeflow-provinzial-aufbau-einer-modernen-machine-learning-und-mlops-plattform-im-versicherungswesen",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg?width=1000&height=500&name=0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg",
+        "description": "KI-Methoden und insbesondere Machine Learning-Ansätze können viele Anwendungsfälle in Unternehmen effizienter gestalten – dieses Potenzial identifizierte die Provinzial Holding AG bereits frühzeitig. Der Wunsch, diese neuartigen Verfahren in den produktiven Einsatz zu bringen und in bestehende Produkte zu integrieren, gestaltete sich jedoch anspruchsvoll in seiner Realisierung. Wie hat also ein Unternehmen, welches in seiner Größenordnung den Top-10 Versicherern Deutschlands angehört, es geschafft, seine KI-Initiativen und Methoden konzernweit zu konsolidieren?"
+    },
+    {
+        "title": "Das Operator Pattern in Kubernetes",
+        "shortTitle": "Kubernetes Operator",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/operator-pattern-in-kubernetes",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/Operator%20Pattern%20in%20Kubernetes.png?width=736&height=368&name=Operator%20Pattern%20in%20Kubernetes.png",
+        "description": "Operator in Kubernetes sind allgegenwärtig und unverzichtbar. Doch was sind Operator und wie können wir sie nutzen, um das eigene Cluster um Funktionalität zu erweitern? Wie nutzt Kubernetes dieses Pattern, um z.B. Pods aus Jobs zu erzeugen? Wir führen durch die Begrifflichkeiten und erklären, wie Operator, Controller und Custom Resources zusammenspielen. Zudem stellen wir verschiedene Frameworks vor, mit denen eigene Controller entwickelt werden können, wodurch sich das Management des Clusters vereinfacht."
+    },
+    {
         "title": "Krisensentiment - Wie Sie Stimmungen in Sozialen Medien Erkennen",
         "shortTitle": "Das Krisensentiment",
         "category": "Blog",
@@ -108,6 +173,14 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "image": "/images/stocktiles.png",
         "imgFit": "contain",
         "description": "StockTiles provides Tiles that let you view charts and prices of all the stock assets you are interested in directly on your Wear OS watch."
+    },
+    {
+        "title": "Implementierung des Anchors Erklärers für maschinelle Lerner in Java",
+        "shortTitle": "Anchors (XAI)",
+        "category": "Open Source",
+        "url": "https://github.com/viadee/javaAnchorExplainer",
+        "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        "description": "In meinster Masterarbeit beschäftigte ich mich mit erklärbarem maschinellem Lernen und untersuchte hierfür einen spezifischen Algorithmus, genannt Anchors. Die bis dato erste Anchors Implementierung in Java habe ich der Open-Source Community auf GitHub zur Verfügung gestellt."
     },
 ]
 

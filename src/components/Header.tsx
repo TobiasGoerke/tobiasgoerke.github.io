@@ -7,30 +7,20 @@ const occupations = [
 
 export const networks: Array<{ name: string, url: string, iconClassName: string }> = [
     {
-        "name": "twitter",
-        "url": "https://twitter.com/TobiasGoerke",
-        "iconClassName": "fa fa-twitter"
-    },
-    {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/tobias-goerke-086b8aa9/",
         "iconClassName": "fa fa-linkedin"
     },
     {
-        "name": "xing",
-        "url": "https://www.xing.com/profile/Tobias_Goerke2/cv",
-        "iconClassName": "fa fa-xing"
+        "name": "github",
+        "url": "https://github.com/TobiasGoerke",
+        "iconClassName": "fa fa-github"
     },
     {
         "name": "instagram",
         "url": "https://www.instagram.com/tobiasgoerke/",
         "iconClassName": "fa fa-instagram"
     },
-    {
-        "name": "github",
-        "url": "https://github.com/TobiasGoerke",
-        "iconClassName": "fa fa-github"
-    }
 ]
 
 const Header = () => {

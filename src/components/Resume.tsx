@@ -25,7 +25,7 @@ const education = [
     {
         "school": "Westfälische Wilhelms-Universität Münster",
         "degree": "M.Sc. Information Systems",
-        "graduated": "Dez. 2019",
+        "graduated": "Dez. 2018",
         "description": "Fokus: Business Networks & Information Systems Development",
         "description2": "Thesis: Analyzing and Extending Anchors – A Model-Agnostic ML Explanation Approach"
     },
@@ -53,12 +53,16 @@ const skills = [
         "level": "80%"
     },
     {
-        "name": "Kubeflow",
-        "level": "90%"
+        "name": "Kubeflow / MLOps",
+        "level": "95%"
     },
     {
         "name": "Kubernetes",
-        "level": "75%"
+        "level": "90%"
+    },
+    {
+        "name": "Go",
+        "level": "50%"
     },
     {
         "name": "Java",
@@ -76,6 +80,18 @@ const skills = [
 
 
 const certificates = [
+    {
+        "title": "Certification: Certified Kubernetes Security Specialist (CKS)",
+        "url": "https://www.credly.com/badges/e0606408-a8fc-4dc4-94e6-2c53e6f08eb5/public_url",
+    },
+    {
+        "title": "Certification: Certified Kubernetes Administrator (CKA)",
+        "url": "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/f404e811-d929-4747-8cb6-d9575559b96c-tobias-maximilian-goerke-47d3daae-dc33-49d7-b25d-2ce787c367b2-certificate.pdf",
+    },
+    {
+        "title": "Certification: Certified Kubernetes Application Developer (CKAD)",
+        "url": "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/f404e811-d929-4747-8cb6-d9575559b96c-tobias-maximilian-goerke-5aa92f61-4d67-4656-b48b-207d36953246-certificate.pdf",
+    },
     {
         "title": "Certification: TensorFlow Developer",
         "url": "https://www.credential.net/c4a71c18-2f9f-4cec-9199-a77079ec8d0d",
