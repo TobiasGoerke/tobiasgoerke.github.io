@@ -6,7 +6,8 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "shortTitle": "DataHub Erfahrungsbericht",
         "category": "Talk (YouTube)",
         "url": "https://www.youtube.com/watch?v=milZHXjE8rc",
-        "image": "https://i.ytimg.com/vi/milZHXjE8rc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbHdQgnQhWBAr3FGiCnCRsagFAgA",
+        "image": "https://i3.ytimg.com/vi/milZHXjE8rc/maxresdefault.jpg",
+        "imgFit": "contain",
         "description": "Moderne Plattformen wie DataHubs bieten praktische Werkzeuge zur effizienten Datenverwaltung und Governance. Diese Plattformen versprechen, eine bedeutende Rolle in der nächsten Generation des Datenmanagements zu spielen, indem sie Unternehmen dabei unterstützen, datenbasierte Strategien wie Data-Mesh erfolgreich umzusetzen. Dieser Vortrag teilt praxisnahe Erfahrungen aus der Implementierung eines DataHubs und betont dessen strategische Relevanz für die gesamte Datenstrategie eines Unternehmens. Es werden Cloud-Architekturen vorgestellt, die dazu beigetragen haben, die dezentrale Struktur des Unternehmens abzubilden. Zudem werden Wege aufgezeigt, die mittels Containertechnologien helfen, selbst nicht unterstützte Datenquellen wie RavenDB erfolgreich zu integrieren. Weitere Infos gibt es auch im BigData-Insider Artikel: https://www.bigdata-insider.de/datahub-die-zukunft-der-unternehmensweiten-datenstrategie-a-3aaa1ea99b1d8eb0aa901acab741950c/"
     },
     {
