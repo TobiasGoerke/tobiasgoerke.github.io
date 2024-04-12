@@ -2,6 +2,14 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Effiziente Datenverwaltung und Governance, Erfahrungen aus der Implementierung eines DataHubs",
+        "shortTitle": "DataHub Erfahrungsbericht",
+        "category": "Talk (YouTube)",
+        "url": "https://www.youtube.com/watch?v=milZHXjE8rc",
+        "image": "https://i.ytimg.com/vi/milZHXjE8rc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAbHdQgnQhWBAr3FGiCnCRsagFAgA",
+        "description": "Moderne Plattformen wie DataHubs bieten praktische Werkzeuge zur effizienten Datenverwaltung und Governance. Diese Plattformen versprechen, eine bedeutende Rolle in der nächsten Generation des Datenmanagements zu spielen, indem sie Unternehmen dabei unterstützen, datenbasierte Strategien wie Data-Mesh erfolgreich umzusetzen. Dieser Vortrag teilt praxisnahe Erfahrungen aus der Implementierung eines DataHubs und betont dessen strategische Relevanz für die gesamte Datenstrategie eines Unternehmens. Es werden Cloud-Architekturen vorgestellt, die dazu beigetragen haben, die dezentrale Struktur des Unternehmens abzubilden. Zudem werden Wege aufgezeigt, die mittels Containertechnologien helfen, selbst nicht unterstützte Datenquellen wie RavenDB erfolgreich zu integrieren. Weitere Infos gibt es auch im BigData-Insider Artikel: https://www.bigdata-insider.de/datahub-die-zukunft-der-unternehmensweiten-datenstrategie-a-3aaa1ea99b1d8eb0aa901acab741950c/"
+    },
+    {
         "title": "Ein Blick in die Black-Box: Explainable AI (XAI) erklärt",
         "shortTitle": "Explainable AI erklärt (Red Stack Magazin)",
         "category": "Artikel",
@@ -101,7 +109,7 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
     {
         "title": "Cloud Native KI: MLOps Mithilfe der Kubeflow Plattform",
         "shortTitle": "Cloud Native KI mit Kubeflow",
-        "category": "Talk",
+        "category": "Talk (YouTube)",
         "url": "https://www.youtube.com/watch?v=PRYA2RPFlSw",
         "image": "/images/kubeflow-logo.png",
         "description": "Dieser Talk beleuchtet typische Probleme und Ansprüche, die Machine Learning Projekten vor ihrem Release bevorstehen. Zudem wird gezeigt, wie MLOps-Techniken und Methoden helfen können den Ansprüchen gerecht zu werden. Hierfür wird insbesondere Googles Cloud-Native ML Plattform „Kubeflow“ vorgestellt. Diese hat keinen geringeren Anspruch, als den gesamten ML-Projektlebenszyklus durch skalierbare Workflows zu begleiten, Modell-Deployments zu vereinfachen und somit den professionellen Betrieb von KI-Projekten zu ermöglichen."
