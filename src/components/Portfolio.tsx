@@ -2,6 +2,15 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "MLOps-Einführung leicht gemacht mit Kubeflow",
+        "shortTitle": "How To: Kubeflow-Einführung",
+        "category": "Artikel (Informatik Aktuell)",
+        "url": "https://www.informatik-aktuell.de/betrieb/kuenstliche-intelligenz/mlops-einfuehrung-leicht-gemacht-mit-kubeflow.html",
+        "image": "https://www.informatik-aktuell.de/fileadmin/_processed_/0/6/csm_GitOps-mit-Kubeflow_df873aed77.png",
+        "imgFit": "contain",
+        "description": "In den vergangenen Jahren hat die MLOps-Plattform Kubeflow deutlich an Popularität gewonnen. Nun dürften weitere Unternehmen das Open-Source-Produkt durch seine Aufnahme in das CNCF-Incubator-Projekt und die damit verbundene Entwicklung hin zum Branchenstandard als Grundgerüst ihrer ML-Infrastruktur in Betracht ziehen. Doch wie gelingt die herausfordernde Einführung des hinreichend komplexen Open-Source-Systems? Wie können diverse Aspekte, wie User-Experience, IT-Sicherheitsfragen und Compliance bedarfsgerecht umgesetzt werden? In diesem Artikel beleuchten wir das Kubeflow-Ökosystem sowie verschiedene Aspekte und Überlegungen, die bei der Einführung der Kubeflow-Plattform berücksichtigt werden müssen. Hierbei berichten wir aus unseren mehrjährigen Erfahrungen des Kubeflow-Cluster-Managements. Dabei gehen wir sowohl auf organisatorische als auch technische Aspekte ein, nennen infrastrukturelle und personelle Anforderungen sowie angemessene Ansätze für das Management von Manifest-Modifikationen und die Bereitstellung von Notebook-Umgebungen für Data Scientists."
+    },
+    {
         "title": "Effiziente Datenverwaltung und Governance, Erfahrungen aus der Implementierung eines DataHubs",
         "shortTitle": "DataHub Erfahrungsbericht",
         "category": "Talk (YouTube)",
