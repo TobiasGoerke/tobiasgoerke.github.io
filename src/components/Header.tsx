@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from "react";
 
 const occupations = [
-    "Data Scientist", "Consultant", "MLOps Engineer", "Machine Learning Enthusiast",
-    "Cloud Engineer", "ML Explainer", "Software Engineer"
+    "Data Scientist", "Consultant", "MLOps Engineer", "Kubestronaut", 
+    "Machine Learning Enthusiast", "Cloud Engineer", "ML Explainer", 
+    "Software Engineer"
 ]
 
 export const networks: Array<{ name: string, url: string, iconClassName: string }> = [
