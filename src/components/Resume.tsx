@@ -81,6 +81,10 @@ const skills = [
 
 const certificates = [
     {
+        "title": "Kubestronaut",
+        "url": "https://www.credly.com/badges/85fc624d-1023-400e-a2b6-c03a152fefa9",
+    },
+    {
         "title": "Certification: Certified Kubernetes Security Specialist (CKS)",
         "url": "https://www.credly.com/badges/e0606408-a8fc-4dc4-94e6-2c53e6f08eb5/public_url",
     },
@@ -91,6 +95,14 @@ const certificates = [
     {
         "title": "Certification: Certified Kubernetes Application Developer (CKAD)",
         "url": "https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/f404e811-d929-4747-8cb6-d9575559b96c-tobias-maximilian-goerke-5aa92f61-4d67-4656-b48b-207d36953246-certificate.pdf",
+    },
+    {
+        "title": "Certification: Certified Kubernetes Application Developer (KCSA)",
+        "url": "https://www.credly.com/badges/de635898-c9d4-48a4-ae0f-8184349b7964",
+    },
+    {
+        "title": "Certification: Kubernetes and Cloud Native Associate (KCNA)",
+        "url": "https://www.credly.com/badges/f1ba124d-af79-4a1d-9adf-55e54fe74fb2",
     },
     {
         "title": "Certification: TensorFlow Developer",
