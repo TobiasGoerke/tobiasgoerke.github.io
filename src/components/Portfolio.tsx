@@ -2,6 +2,14 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Produktive ML-Modelle mit Kubernetes und KServe on-premises betreiben",
+        "shortTitle": "KServe und LangChain",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/produktive-ml-modelle-mit-kubernetes-und-kserve-on-premises-betreiben",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/Bild%20f%C3%BCr%20Blogpost%20(5)%20(1).jpg",
+        "description": "KI-Modelle werden zunehmend in Produkten und Dienstleistungen eingesetzt. Durch die hohen Anforderungen und Komplexität dieser Modelle ist die Produktivsetzung jedoch oft eine Herausforderung. In diesem Blog zeigen wir, wie das Kubernetes Framework KServe die Bereitstellung von ML-Modellen auf der eigenen Infrastruktur vereinfacht und beschreiben die reproduzierbare Implementierung eines hochskalierbaren KI-Web-Servers. Als Beispiel dient ein eigens entwickeltes Retrieval-Augmented Generation System (RAG) auf das Basis von LangChain, das die spezifische Frage nach den Teilnehmern unserer NAVIGATE-Konferenz souverän beantwortet: "According to my sources, there were 850 Participants (a new record for the organizer), 54 Speakers ...""
+    },
+    {
         "title": "MLOps-Einführung leicht gemacht mit Kubeflow",
         "shortTitle": "How To: Kubeflow-Einführung",
         "category": "Artikel (Informatik Aktuell)",
