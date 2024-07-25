@@ -2,6 +2,14 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Die eigene AI Chat Platform Powered by LibreChat",
+        "shortTitle": "LibreChat - AI Chat Platform",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/die-eigene-ai-chat-platform-powered-by-librechat",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/Erweiterbarkeit%20durch%20Plugins.jpg?width=1100&height=852&name=Erweiterbarkeit%20durch%20Plugins.jpg",
+        "description": "Intelligente Chat-Tools sind aus der modernen Arbeitswelt nicht mehr wegzudenken und Unternehmen bieten ihre produktivitätssteigernden Potenziale zunehmend gezielt ihren Mitarbeitenden an. Hierfür eignet sich insbesondere die Einführung einer eigenen, internen Lösung, um die sichere und datenschutzrechtlich konforme Nutzung der KIs zu gewährleisten. Denn ein fehlendes Angebot der intelligenten Helfer bedeutet meist die wesentlich riskantere Nutzung externer Dienste durch die Hintertür. Eine innovative AI Chat Plattform namens LibreChat erleichtert uns mit einer ChatGPT-ähnlichen Oberfläche die Einführung solcher KI-Tools: Das Open Source Produkt bietet Funktionen von intelligenten Chats bis zur Integration eigener GenAI-Anwendungen - und das alles ohne das Schreiben einer einzigen Zeile Code! In diesem Blogbeitrag geben wir einen tieferen Einblick in LibreChat und teilen unsere Erfahrungen, die wir während der Implementierung von viadeeGPT auf Basis von LibreChat gesammelt haben."
+    },
+    {
         "title": "Produktive ML-Modelle mit Kubernetes und KServe on-premises betreiben",
         "shortTitle": "KServe und LangChain",
         "category": "Blog",
