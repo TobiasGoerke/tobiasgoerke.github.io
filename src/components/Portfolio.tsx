@@ -3,7 +3,7 @@ import './Portfolio.css';
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
         "title": "Prompt Engineering ist tot - Lang lebe das Model Programming (DSPy)",
-        "shortTitle": "Prompt Engineering mit DSPy",
+        "shortTitle": "Prompt Programming mit DSPy",
         "category": "Blog",
         "url": "https://blog.viadee.de/lang-lebe-das-model-programming",
         "image": "https://blog.viadee.de/hs-fs/hubfs/dspy.jpg?width=2000&height=1000&name=dspy.jpg",
