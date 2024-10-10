@@ -2,6 +2,22 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Prompt Engineering ist tot - Lang lebe das Model Programming (DSPy)",
+        "shortTitle": "Prompt Engineering mit DPSy",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/lang-lebe-das-model-programming",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/dspy.jpg?width=2000&height=1000&name=dspy.jpg",
+        "description": "Unsicher welcher Prompt der richtige für die eigene LLM-Anwendung ist? RAG- oder Agentensysteme, die Anweisungen von Prompt-Templates ignorieren oder sensibel auf dessen Änderungen reagieren? Unschlüssig, welche Few-Shot-Beispiele verwendet werden sollen? All diesen Herausforderungen begegnen Data Scientists regelmäßig; insbesondere bei der Optimierung, dem Debuggen oder dem Ausrollen von LLM-Systemen. Ein neues Tool namens DSPy, das dem Ansatz des Prompt Programmings folgt, bietet eine Lösung. Denn es hilft, optimierte Prompts automatisch zu generieren - ganz ohne vordefinierte Anweisungen. Dadurch werden Prompt-Templates aus der Entwicklung verbannt und zusätzlich die Performance der Anwendung optimiert."
+    },
+    {
+        "title": "MLOps: Hightech made in Lingen",
+        "shortTitle": "MLOps: Hightech made in Lingen",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/mlops-hightech-made-in-lingen",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/rosen.jpg?width=2000&height=1000&name=rosen.jpg",
+        "description": "Die Schweizer ROSEN Gruppe nutzt modernste Technologien, um kleinste Risse und Korrosionsschäden in Öl- und Gasleitungen sowie diversen anderen industriellen Anlagen und Strukturen zu erkennen. Gemäß dem Leitmotiv 'Spitzentechnologien zum Schutz von Mensch und Umwelt' können Kunden des Pipeline-Inspektions-Weltmarktführers somit seit 1981 ihre Infrastrukturen prädiktiv untersuchen lassen.  Die Grundlage des Geschäftsmodells bildet das Sammeln und Auswerten von Daten mittels autonomer Inspektions- und Messtechnik, die das Unternehmen selbst an seinen weltweiten Standorten entwickelt, herstellt und auch selbst einsetzt.  So konnte das Unternehmen in mehr als 40 Jahren über zwei Millionen Pipeline-Kilometer weltweit hochauflösend abtasten und inspizieren. Die ROSEN Gruppe geht aber noch einen Schritt weiter und verkauft die Rohdaten nicht einfach an die Auftraggeber wie Infrastrukturbetreiber. Die Daten werden von den Datenspezialisten in Lingen auch ausgewertet, analysiert und interpretiert. Mit dieser Strategie stellt der Markt- und Technologieführer in diesem Sektor die datengetriebene Entscheidungsunterstützung und -findung in den Mittelpunkt."
+    },
+    {
         "title": "Die eigene AI Chat Platform Powered by LibreChat",
         "shortTitle": "LibreChat - AI Chat Platform",
         "category": "Blog",
