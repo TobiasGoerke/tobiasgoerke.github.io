@@ -2,6 +2,14 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Von der Chat Plattform zum AI Hub mit Open WebUI & LiteLLM",
+        "shortTitle": "Open WebUI & LiteLLM",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/open-webui-litellm",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/ai.jpg?width=2000&height=1000&name=ai.jpg",
+        "description": "Während die meisten Unternehmen KI-Tools im Einsatz haben, kämpfen IT-Verantwortliche mit einem digitalen Wildwest: Mitarbeiter nutzen Shadow-AI-Lösungen, sensible Daten landen in ungeschützten Umgebungen und proprietäre RAG-Systeme verstauben als Insellösungen. Die Folgekosten reichen von ungenutzten Systemen, über DSGVO-Strafen bis zum Verlust wettbewerbskritischer Daten – doch ein Verbot ist keine Option.  Die Lösung liegt in einer kontrollierten KI-Infrastruktur, die Bedienkomfort mit Enterprise-Sicherheit verbindet. In diesem Beitrag demonstrieren wir, wie wir mit Open WebUI eine unternehmenseigene Chat-Plattform aufbauen, die über LiteLLM nicht nur herkömmliche LLMs, sondern auch eigene KI-Anwendungen wie RAG-Systeme oder Agenten nahtlos integriert – und das ohne Vendor-Lock-in."
+    },
+    {
         "title": "Prompt Engineering ist tot - Lang lebe das Model Programming (DSPy)",
         "shortTitle": "Prompt Programming mit DSPy",
         "category": "Blog",
