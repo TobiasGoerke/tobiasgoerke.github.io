@@ -2,6 +2,15 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "Self-Hosted Code-Copilot – Enterprise-Ready mit Continue.dev und Litellm",
+        "shortTitle": "Code-Copilot mit Continue und LiteLLM",
+        "category": "Blog",
+        "url": "https://blog.viadee.de/self-hosted-code-copilot-enterprise-ready-mit-continue.dev-und-litellm",
+        "image": "https://blog.viadee.de/hs-fs/hubfs/Titelbild.jpg?width=2000&height=1000&name=Titelbild.jpg",
+        "description": "Der Blogbeitrag stellt mit Continue.dev und LiteLLM eine Open-Source-Lösung vor, die es Unternehmen ermöglicht, KI-gestützte Funktionen wie Codevervollständigung und Chat nahtlos und datenschutzkonform in Entwicklungsumgebungen wie VSCode zu integrieren. Im Gegensatz zu Cloud-basierten Diensten wie GitHub Copilot behalten Unternehmen dabei die volle Kontrolle über Daten, Modelle und Infrastruktur. Die Lösung ist einfach per Container (z. B. Docker) einsetzbar, flexibel anpassbar und ermöglicht über LiteLLM auch zentrale Verwaltung, Nutzerkontrolle und Budgetüberwachung. Ideal für Organisationen, die auf Sicherheit, Transparenz und Unabhängigkeit setzen."
+    },
+
+    {
         "title": "Von der Chat Plattform zum AI Hub mit Open WebUI & LiteLLM",
         "shortTitle": "Open WebUI & LiteLLM",
         "category": "Blog",
