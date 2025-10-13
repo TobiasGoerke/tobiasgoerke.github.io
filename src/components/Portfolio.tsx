@@ -2,52 +2,59 @@ import './Portfolio.css';
 
 const portfolio: Array<{ "title": string, shortTitle?: string, "category": string, "url": string, "image": string, "imgFit"?: string, "description": string }> = [
     {
+        "title": "KI mit Web-Search-Power – Perplexity accountfrei selbst betreiben",
+        "shortTitle": "Perplexity goes Open WebUI",
+        "category": "Blog",
+        "url": "https://www.viadee.de/blog/perplexity-nutzung-ohne-accounts-ja-und-das-auf-der-eigenen-infrastruktur",
+        "image": "https://www.viadee.de/media/pages/blog/perplexity-nutzung-ohne-accounts-ja-und-das-auf-der-eigenen-infrastruktur/1a64de8deb-1759395480/perplexity.png",
+        "description": "Perplexity hat sich als leistungsstarker KI-Assistent mit integrierter Web-Suche und verifizierbaren Quellenverweisen etabliert, der besonders für aktuelle und fundierte Recherchefragen geeignet ist. Die Perplexity API bietet eine nahtlose Integration in bestehende KI-Infrastrukturen dank OpenAI-Kompatibilität und ermöglicht so eine unkomplizierte Nutzung moderner großer Sprachmodelle mit Echtzeit-Zugriff auf das Internet. Unternehmen stoßen bei der unternehmensweiten Nutzung allerdings auf Herausforderungen wie hohe Kosten pro Nutzer, Datenschutzaspekte und die mögliche Konkurrenz zu eigenen KI-Lösungen. Die Lösung besteht in der Kombination der Perplexity API mit selbst gehosteten Systemen wie LiteLLM und Open WebUI. Dieses Setup erlaubt es, die leistungsfähigen Such- und Antwortmechanismen von Perplexity kosteneffizient zu verwenden, dabei jedoch sämtliche Daten- und Infrastrukturkontrolle zu behalten. LiteLLM dient als zentrale Modell-Gateway-Architektur, die verschiedene KI-Services über eine einheitliche API verbindet und so Monitoring, Kostenkontrolle und einfache Authentifizierung ermöglicht. Open WebUI ergänzt die Lösung mit einem Frontend, das Quellenverweise direkt und transparent darstellt, wodurch der Anwender nicht nur Antwortnummern, sondern auch die zugehörigen Originalquellen sehen und prüfen kann. Diese selbst gehostete Integration reduziert Halluzinationen durch sogenanntes Grounding, verbessert die Faktentreue und bietet vielfältige Modelloptionen von schnellen Standardantworten bis zu tiefgehenden Recherchemodellen. Zusammengefasst bietet sie Unternehmen eine zukunftssichere, datenschutzfreundliche und kosteneffiziente KI-Plattform, die sich flexibel in bestehende Umgebungen einbinden lässt und gleichzeitig ein hohes Maß an Transparenz und Kontrolle gewährleistet."
+    },
+    {
         "title": "Self-Hosted Code-Copilot – Enterprise-Ready mit Continue.dev und Litellm",
         "shortTitle": "Code-Copilot mit Continue und LiteLLM",
         "category": "Blog",
-        "url": "https://blog.viadee.de/self-hosted-code-copilot-enterprise-ready-mit-continue.dev-und-litellm",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/Titelbild.jpg?width=2000&height=1000&name=Titelbild.jpg",
+        "url": "https://www.viadee.de/blog/self-hosted-code-copilot-enterprise-ready-mit-continue-dev-und-litellm",
+        "image": "https://www.viadee.de/media/pages/blog/self-hosted-code-copilot-enterprise-ready-mit-continue-dev-und-litellm/5d002a5adc-1758618221/self-hosted.webp",
         "description": "Der Blogbeitrag stellt mit Continue.dev und LiteLLM eine Open-Source-Lösung vor, die es Unternehmen ermöglicht, KI-gestützte Funktionen wie Codevervollständigung und Chat nahtlos und datenschutzkonform in Entwicklungsumgebungen wie VSCode zu integrieren. Im Gegensatz zu Cloud-basierten Diensten wie GitHub Copilot behalten Unternehmen dabei die volle Kontrolle über Daten, Modelle und Infrastruktur. Die Lösung ist einfach per Container (z. B. Docker) einsetzbar, flexibel anpassbar und ermöglicht über LiteLLM auch zentrale Verwaltung, Nutzerkontrolle und Budgetüberwachung. Ideal für Organisationen, die auf Sicherheit, Transparenz und Unabhängigkeit setzen."
     },
-
     {
         "title": "Von der Chat Plattform zum AI Hub mit Open WebUI & LiteLLM",
         "shortTitle": "Open WebUI & LiteLLM",
         "category": "Blog",
-        "url": "https://blog.viadee.de/open-webui-litellm",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/ai.jpg?width=2000&height=1000&name=ai.jpg",
+        "url": "https://www.viadee.de/blog/open-webui-litellm",
+        "image": "https://www.viadee.de/media/pages/blog/open-webui-litellm/ca8f379071-1758618221/ai.jpg",
         "description": "Während die meisten Unternehmen KI-Tools im Einsatz haben, kämpfen IT-Verantwortliche mit einem digitalen Wildwest: Mitarbeiter nutzen Shadow-AI-Lösungen, sensible Daten landen in ungeschützten Umgebungen und proprietäre RAG-Systeme verstauben als Insellösungen. Die Folgekosten reichen von ungenutzten Systemen, über DSGVO-Strafen bis zum Verlust wettbewerbskritischer Daten – doch ein Verbot ist keine Option.  Die Lösung liegt in einer kontrollierten KI-Infrastruktur, die Bedienkomfort mit Enterprise-Sicherheit verbindet. In diesem Beitrag demonstrieren wir, wie wir mit Open WebUI eine unternehmenseigene Chat-Plattform aufbauen, die über LiteLLM nicht nur herkömmliche LLMs, sondern auch eigene KI-Anwendungen wie RAG-Systeme oder Agenten nahtlos integriert – und das ohne Vendor-Lock-in."
     },
     {
         "title": "Prompt Engineering ist tot - Lang lebe das Model Programming (DSPy)",
         "shortTitle": "Prompt Programming mit DSPy",
         "category": "Blog",
-        "url": "https://blog.viadee.de/lang-lebe-das-model-programming",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/dspy.jpg?width=2000&height=1000&name=dspy.jpg",
+        "url": "https://www.viadee.de/blog/lang-lebe-das-model-programming",
+        "image": "https://www.viadee.de/media/pages/blog/lang-lebe-das-model-programming/f9d76de9c5-1758618222/dspy.jpg",
         "description": "Unsicher welcher Prompt der richtige für die eigene LLM-Anwendung ist? RAG- oder Agentensysteme, die Anweisungen von Prompt-Templates ignorieren oder sensibel auf dessen Änderungen reagieren? Unschlüssig, welche Few-Shot-Beispiele verwendet werden sollen? All diesen Herausforderungen begegnen Data Scientists regelmäßig; insbesondere bei der Optimierung, dem Debuggen oder dem Ausrollen von LLM-Systemen. Ein neues Tool namens DSPy, das dem Ansatz des Prompt Programmings folgt, bietet eine Lösung. Denn es hilft, optimierte Prompts automatisch zu generieren - ganz ohne vordefinierte Anweisungen. Dadurch werden Prompt-Templates aus der Entwicklung verbannt und zusätzlich die Performance der Anwendung optimiert."
     },
     {
         "title": "MLOps: Hightech made in Lingen",
         "shortTitle": "MLOps: Hightech made in Lingen",
         "category": "Blog",
-        "url": "https://blog.viadee.de/mlops-hightech-made-in-lingen",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/rosen.jpg?width=2000&height=1000&name=rosen.jpg",
+        "url": "https://www.viadee.de/referenzen/mlops-rosen",
+        "image": "https://www.viadee.de/media/pages/referenzen/mlops-rosen/7c0c276fb3-1758618220/2025_rosen-referenz-header-1440x750-crop.webp",
         "description": "Die Schweizer ROSEN Gruppe nutzt modernste Technologien, um kleinste Risse und Korrosionsschäden in Öl- und Gasleitungen sowie diversen anderen industriellen Anlagen und Strukturen zu erkennen. Gemäß dem Leitmotiv 'Spitzentechnologien zum Schutz von Mensch und Umwelt' können Kunden des Pipeline-Inspektions-Weltmarktführers somit seit 1981 ihre Infrastrukturen prädiktiv untersuchen lassen.  Die Grundlage des Geschäftsmodells bildet das Sammeln und Auswerten von Daten mittels autonomer Inspektions- und Messtechnik, die das Unternehmen selbst an seinen weltweiten Standorten entwickelt, herstellt und auch selbst einsetzt.  So konnte das Unternehmen in mehr als 40 Jahren über zwei Millionen Pipeline-Kilometer weltweit hochauflösend abtasten und inspizieren. Die ROSEN Gruppe geht aber noch einen Schritt weiter und verkauft die Rohdaten nicht einfach an die Auftraggeber wie Infrastrukturbetreiber. Die Daten werden von den Datenspezialisten in Lingen auch ausgewertet, analysiert und interpretiert. Mit dieser Strategie stellt der Markt- und Technologieführer in diesem Sektor die datengetriebene Entscheidungsunterstützung und -findung in den Mittelpunkt."
     },
     {
         "title": "Die eigene AI Chat Platform Powered by LibreChat",
         "shortTitle": "LibreChat - AI Chat Platform",
         "category": "Blog",
-        "url": "https://blog.viadee.de/die-eigene-ai-chat-platform-powered-by-librechat",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/Erweiterbarkeit%20durch%20Plugins.jpg?width=1100&height=852&name=Erweiterbarkeit%20durch%20Plugins.jpg",
+        "url": "https://www.viadee.de/blog/die-eigene-ai-chat-platform-powered-by-librechat",
+        "image": "https://www.viadee.de/media/pages/blog/die-eigene-ai-chat-platform-powered-by-librechat/61c08da6f6-1758618222/die-20eigene-20ai-20chat-20platform-20powered-20by-20librechat.jpg",
         "description": "Intelligente Chat-Tools sind aus der modernen Arbeitswelt nicht mehr wegzudenken und Unternehmen bieten ihre produktivitätssteigernden Potenziale zunehmend gezielt ihren Mitarbeitenden an. Hierfür eignet sich insbesondere die Einführung einer eigenen, internen Lösung, um die sichere und datenschutzrechtlich konforme Nutzung der KIs zu gewährleisten. Denn ein fehlendes Angebot der intelligenten Helfer bedeutet meist die wesentlich riskantere Nutzung externer Dienste durch die Hintertür. Eine innovative AI Chat Plattform namens LibreChat erleichtert uns mit einer ChatGPT-ähnlichen Oberfläche die Einführung solcher KI-Tools: Das Open Source Produkt bietet Funktionen von intelligenten Chats bis zur Integration eigener GenAI-Anwendungen - und das alles ohne das Schreiben einer einzigen Zeile Code! In diesem Blogbeitrag geben wir einen tieferen Einblick in LibreChat und teilen unsere Erfahrungen, die wir während der Implementierung von viadeeGPT auf Basis von LibreChat gesammelt haben."
     },
     {
         "title": "Produktive ML-Modelle mit Kubernetes und KServe on-premises betreiben",
         "shortTitle": "KServe und LangChain",
         "category": "Blog",
-        "url": "https://blog.viadee.de/produktive-ml-modelle-mit-kubernetes-und-kserve-on-premises-betreiben",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/Bild%20f%C3%BCr%20Blogpost%20(5)%20(1).jpg",
+        "url": "https://www.viadee.de/blog/produktive-ml-modelle-mit-kubernetes-und-kserve-on-premises-betreiben",
+        "image": "https://www.viadee.de/media/pages/blog/produktive-ml-modelle-mit-kubernetes-und-kserve-on-premises-betreiben/f81bfdeed4-1758618222/bild-20f-c3-bcr-20blogpost-20-285-29-20-281-29.jpg",
         "description": "KI-Modelle werden zunehmend in Produkten und Dienstleistungen eingesetzt. Durch die hohen Anforderungen und Komplexität dieser Modelle ist die Produktivsetzung jedoch oft eine Herausforderung. In diesem Blog zeigen wir, wie das Kubernetes Framework KServe die Bereitstellung von ML-Modellen auf der eigenen Infrastruktur vereinfacht und beschreiben die reproduzierbare Implementierung eines hochskalierbaren KI-Web-Servers. Als Beispiel dient ein eigens entwickeltes Retrieval-Augmented Generation System (RAG) auf das Basis von LangChain, das die spezifische Frage nach den Teilnehmern unserer NAVIGATE-Konferenz souverän beantwortet: 'According to my sources, there were 850 Participants (a new record for the organizer), 54 Speakers ...'"
     },
     {
@@ -88,16 +95,16 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "title": "Von Chat with your Data bis ChatGPT mit Embedded & Fine-Tuned LLMs",
         "shortTitle": "LLM Embeddings & Fine-Tuning",
         "category": "Blog",
-        "url": "https://blog.viadee.de/llms-optimieren-mit-embeddings-und-fine-tuning",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/image%20(3)(1).png?width=1536&height=768&name=image%20(3)(1).png",
+        "url": "https://www.viadee.de/blog/llms-optimieren-mit-embeddings-und-fine-tuning",
+        "image": "https://www.viadee.de/media/pages/blog/llms-optimieren-mit-embeddings-und-fine-tuning/f316f528f3-1758618221/large-language-models.webp",
         "description": "Large Language Models (LLMs) wie ChatGPT können viele Herausforderungen, wie das Schreiben von Texten und Code, von Haus aus bewältigen. Doch haben sie im Normalfall keinen Zugriff auf eigene bzw. unternehmensinterne Daten. Was also, wenn ihnen Informationen fehlen und sie falsche Antworten liefern? In diesem Beitrag untersuchen wir die Lösungsansätze Embedding bzw. Retrieval Augmented Generation und Fine-Tuning, um spezifisches Kontextmaterial bereitzustellen und Anwendungsfälle vom Typ 'Chat with your Data' zu ermöglichen. So können LLMs auf neuem Terrain eingesetzt werden und mit mehr Zuversicht in die Produktion gehen."
     },
     {
         "title": "Self-Hosted Code-Copilot mit Llama-2",
         "shortTitle": "Llama-2 Copilot",
         "category": "Blog",
-        "url": "https://blog.viadee.de/self-hosted-code-copilot-mit-llama-2",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/Code_Llama-1000x500.jpg?width=1500&height=750&name=Code_Llama-1000x500.jpg",
+        "url": "https://www.viadee.de/blog/self-hosted-code-copilot-mit-llama-2",
+        "image": "https://www.viadee.de/media/pages/blog/self-hosted-code-copilot-mit-llama-2/454371fadc-1758618222/code_llama-1000x500.jpg",
         "description": "Längst ist der Entwickleralltag durch Machine Learning und Large Language Models (LLMs) geprägt. Bislang führte OpenAI die populärsten KI-Tools ein und sicherte sich durch einen Vorsprung in Forschung und Entwicklung eine führende Position im Bereich KI-Anwendungen. Dank ihrer Modelle GPT und Codex konnten sie Anwendungen wie ChatGPT und GitHub Copilot ermöglichen. Diese wurden weitreichend adaptiert und führen bei Entwickler:innen zu teilweise erheblichen Produktivitätssteigerungen.  Nun holt OpenAIs Konkurrenz auf und durchbricht das Monopol mit der Veröffentlichung verschiedener Alternativmodelle. Insbesondere der Konzern Meta geht mit gutem Beispiel voran und stellt sein Modell Llama-2 kostenlos zur Verfügung – solange es nicht von Anwendungen mit mehr als 700 Millionen Nutzer:innen genutzt wird. In vielen Disziplinen erreicht Llama-2 eine mit GPT-4 vergleichbare Leistung, wie Metas wissenschaftliche Publikation belegt. Somit steht Unternehmen, die nicht länger von Anbietern wie OpenAI abhängig sein möchten oder können, endlich eine wahre Alternative zur Verfügung.  In diesem Artikel wird beleuchtet, wie das Llama-2 Modell auf unternehmenseigener Infrastruktur bereitgestellt werden kann. Auf diesem Wege kann auch das am 24.08.2023 von Meta veröffentlichte Code Llama Modell, das speziell für diesen Anwendungsfall erstellt wurde, genutzt werden. Darüber hinaus wird anhand eines VSCode-Plugins veranschaulicht, wie die KI zur Steigerung der Produktivität integriert werden kann."
     },
     {
@@ -129,40 +136,40 @@ const portfolio: Array<{ "title": string, shortTitle?: string, "category": strin
         "title": "Kubeflow @ Provinzial: Aufbau einer modernen Machine Learning und MLOps-Plattform im Versicherungswesen",
         "shortTitle": "Kubeflow @ Provinzial",
         "category": "Blog",
-        "url": "https://blog.viadee.de/kubeflow-provinzial-aufbau-einer-modernen-machine-learning-und-mlops-plattform-im-versicherungswesen",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg?width=1000&height=500&name=0_Neural-Networks_MLops_Kubeflow_Provinzial-Versicherung.jpg",
+        "url": "https://www.viadee.de/blog/kubeflow-provinzial-aufbau-einer-modernen-machine-learning-und-mlops-plattform-im-versicherungswesen",
+        "image": "https://www.viadee.de/media/pages/blog/kubeflow-provinzial-aufbau-einer-modernen-machine-learning-und-mlops-plattform-im-versicherungswesen/3156a06a8d-1758618222/0_neural-networks_mlops_kubeflow_provinzial-versicherung.jpg",
         "description": "KI-Methoden und insbesondere Machine Learning-Ansätze können viele Anwendungsfälle in Unternehmen effizienter gestalten - dieses Potenzial identifizierte die Provinzial Holding AG bereits frühzeitig. Der Wunsch, diese neuartigen Verfahren in den produktiven Einsatz zu bringen und in bestehende Produkte zu integrieren, gestaltete sich jedoch anspruchsvoll in seiner Realisierung. Wie hat also ein Unternehmen, welches in seiner Größenordnung den Top-10 Versicherern Deutschlands angehört, es geschafft, seine KI-Initiativen und Methoden konzernweit zu konsolidieren?"
     },
     {
         "title": "Das Operator Pattern in Kubernetes",
         "shortTitle": "Kubernetes Operator",
         "category": "Blog",
-        "url": "https://blog.viadee.de/operator-pattern-in-kubernetes",
-        "image": "https://blog.viadee.de/hs-fs/hubfs/Operator%20Pattern%20in%20Kubernetes.png?width=736&height=368&name=Operator%20Pattern%20in%20Kubernetes.png",
+        "url": "https://www.viadee.de/blog/operator-pattern-in-kubernetes",
+        "image": "https://www.viadee.de/media/pages/blog/operator-pattern-in-kubernetes/37cf7a263b-1758618221/operator-pattern-in-kubernetes.webp",
         "description": "Operator in Kubernetes sind allgegenwärtig und unverzichtbar. Doch was sind Operator und wie können wir sie nutzen, um das eigene Cluster um Funktionalität zu erweitern? Wie nutzt Kubernetes dieses Pattern, um z.B. Pods aus Jobs zu erzeugen? Wir führen durch die Begrifflichkeiten und erklären, wie Operator, Controller und Custom Resources zusammenspielen. Zudem stellen wir verschiedene Frameworks vor, mit denen eigene Controller entwickelt werden können, wodurch sich das Management des Clusters vereinfacht."
     },
     {
         "title": "Krisensentiment - Wie Sie Stimmungen in Sozialen Medien Erkennen",
         "shortTitle": "Das Krisensentiment",
         "category": "Blog",
-        "url": "https://blog.viadee.de/sentiment-analyse-yammer",
-        "image": "/images/sentiment.png",
+        "url": "https://www.viadee.de/blog/sentiment-analyse-yammer",
+        "image": "https://www.viadee.de/media/pages/blog/sentiment-analyse-yammer/d1c262b730-1758618221/header-sentimentanalyse.webp",
         "description": "Gestalten Sie Teile Ihrer Unternehmenskommunikation in sozialen Medien, dann kommen Sie um eine Auswertung der entstehenden Kommentare nicht herum. Ein nützliches Tool hierfür ist die Sentimentanalyse, mittels welcher sich die Stimmung oder die Gefühlslage aus Texten extrahieren lässt. Somit erfahren Sie, wie die aktuelle Kampagne die Außenwirkung Ihres Unternehmens beeinflusst, und können reagieren, wenn die Stimmung kippt. Am realen Beispiel des viadee Yammer-Netzwerkes behandelt der Artikel das grundsätzliche Vorgehen einer semantischen Sentimentanalyse von Texten."
     },
     {
         "title": "Machine Learning in der Logistikbranche: Wegbereiter in eine optimierte Zukunft",
         "shortTitle": "ML in der Logistikbranche",
         "category": "Blog",
-        "url": "https://blog.viadee.de/machine-learning-in-der-logistikbranche",
-        "image": "/images/ml-logistics.jpg",
+        "url": "https://www.viadee.de/blog/machine-learning-in-der-logistikbranche",
+        "image": "https://www.viadee.de/media/pages/blog/machine-learning-in-der-logistikbranche/648447c92d-1758618222/machine-learning-logistik-f.jpg",
         "description": "Als marktführender IT-Dienstleister für alle am Transportprozess beteiligten Parteien positioniert sich TIMOCOM als Partner der Kunden, mit dem Ziel, Prozesse zu verschlanken, zu vernetzen und zu digitalisieren. Die Erfolgsgeschichte des Unternehmens reicht dabei viele Jahre zurück bis zur Firmengründung der „TimoCom Soft- und Hardware GmbH“ im Jahr 1997. Damals erkannte Jens Thiermann, einer der beiden namensgebenden Firmengründer, dass das Auffinden von Ladungen und die Auslastung von LKW eine große Herausforderung darstellen. Die Lösung wurde in der Entwicklung einer digitalen Fracht- und Laderaumbörse gefunden und umgesetzt, über die Rückladungen gesucht und Leerfahrten verringert werden konnten. Mittlerweile unter TIMOCOM GmbH firmierend, ist daraus ein Smart Logistics System mit weiteren Anwendungen, sog. Smart Apps, z. B. zur digitalen Auftragsabwicklung und GPS Tracking, gewachsen. Mit diesem System unterstützt TIMOCOM mehr als 43.000 Unternehmen aus ganz Europa täglich bei der Bewältigung komplexer Prozesse der Transportlogistik."
     },
     {
         "title": "Machine Learning Modelle Erklärbar Machen mit Anchors",
         "shortTitle": "XAI & Anchors",
         "category": "Blog",
-        "url": "https://blog.viadee.de/machine-learning-modelle-erklaerbar-machen-mit-anchors",
-        "image": "/images/anchors.jpg",
+        "url": "https://www.viadee.de/blog/machine-learning-modelle-erklaerbar-machen-mit-anchors",
+        "image": "https://www.viadee.de/media/pages/blog/machine-learning-modelle-erklaerbar-machen-mit-anchors/c7177f91ff-1758618221/anchors_ot-kl.jpg",
         "description": "Sowohl bei der Entwicklung als auch bei der Verwendung von Machine-Learning-Modellen steht man vor mehreren Herausforderungen: Die Modelle müssen validiert und Vertrauen muss geschaffen werden. Sofern es außerdem um automatisierte Entscheidungen geht, müssen einzelne Vorhersagen bzw. Entscheidungen erklärt werden. Dazu haben Marco Tulio Ribeiro, Sameer Singh und Carlos Guestrin in 2018 den Algorithmus Anchors entworfen."
     },
     {
@@ -317,3 +324,4 @@ const Portfolio = () => {
 }
 
 export default Portfolio;
+
